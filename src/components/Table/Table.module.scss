@@ -1,0 +1,138 @@
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+
+    thead {
+        height: 30px;
+    }
+
+    th, td {
+        text-align: left;
+
+        &.name {
+            width: 413px;
+        }
+        &.type {
+            width: 122px;
+        }
+        &.status {
+            width: 115px;
+        }
+        &.site {
+            width: 174px;
+        }
+    }
+
+    th {
+        font-weight: 500;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #999;
+        vertical-align: middle;
+        cursor: pointer;
+
+        &:first-child {
+            padding-left: 15px;
+        }
+    }
+
+    tbody {
+        tr {
+            background-color: #fff;
+            position: relative;
+            font-size: 12px;
+            color: #5c5c5c;
+            height: 70px;
+            cursor: pointer;
+
+            td {
+                &.status {
+                    font-weight: 500;
+
+                    &.online {
+                        color: #1bda9d;
+                    }
+
+                    &.paused {
+                        color: #ff8346;
+                    }
+
+                    &.stopped {
+                        color: #fe4848;
+                    }
+                }
+
+                &.name {
+                    padding-left: 11px;
+                    font-weight: 500;
+                    font-size: 13px;
+                    color: #474747;
+                }
+
+                &:first-child {
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                    border-left: 4px solid;
+                }
+
+                &:last-child {
+                    border-top-right-radius: 3px;
+                    border-bottom-right-radius: 3px;
+                    padding-right: 12px;
+                }
+            }
+
+            &:hover {
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2ee5ac;
+    color: #fff;
+    transition: background-color 0.3s;
+    text-decoration: none;
+
+    a:visited {
+        color: inherit;
+    }
+
+    &:hover {
+        text-decoration: none;
+        background-color: #24b38a;
+    }
+
+    &:active {
+        background-color: #1d9070;
+    }
+
+    &:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    &.draft {
+        background: #7d7d7d;
+
+        &:hover {
+            background-color: #696969;
+        }
+
+        &:active {
+            background-color: #505050;
+        }
+
+        &:disabled {
+            background-color: #a9a9a9;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Order basket redesing",
+        "type": "Classic",
+        "status": "Online",
+        "site": "https://market.company.com",
+        "markerColor": "#e14165"
+    },
+    {
+        "id": 2,
+        "name": "Prototype of the new map",
+        "type": "Classic",
+        "status": "Paused",
+        "site": "http://delivery.company.com",
+        "markerColor": "#c2c2ff"
+    },
+    {
+        "id": 3,
+        "name": "Dark theme test",
+        "type": "MVT",
+        "status": "Draft",
+        "site": "www.games.company.com",
+        "markerColor": "#8686ff"
+    },
+    {
+        "id": 4,
+        "name": "New Year's Sale",
+        "type": "MVT",
+        "status": "Stopped",
+        "site": "https://market.company.com",
+        "markerColor": "#e14165"
+    },
+    {
+        "id": 5,
+        "name": "New Year's Sale Copy 1",
+        "type": "MVT",
+        "status": "Draft",
+        "site": "https://market.company.com",
+        "markerColor": "#e14165"
+    },
+    {
+        "id": 6,
+        "name": "Prototype of a new header",
+        "type": "Server-side",
+        "status": "Online",
+        "site": "www.games.company.com",
+        "markerColor": "#8686ff"
+    },
+    {
+        "id": 7,
+        "name": "Spring promotion",
+        "type": "Server-side",
+        "status": "Draft",
+        "site": "http://delivery.company.com",
+        "markerColor": "#c2c2ff"
+    }
+]
