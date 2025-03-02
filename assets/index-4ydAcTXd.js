@@ -1,1 +1,0 @@
-import{j as i,L as s}from"./index-B_HE-NiU.js";const t="_description_ki4bq_1",e={description:t},o=()=>i.jsx(s,{title:"Finalize",showBackLink:!0,children:i.jsx("p",{className:e.description,children:"Spring promotion"})});export{o as default};
