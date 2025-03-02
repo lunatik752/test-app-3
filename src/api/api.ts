@@ -1,5 +1,5 @@
 import axios from "axios";
-import { TestType } from "../types/test.ts"
+import { TestType } from "../types/test"
 
 const instance = axios.create({ baseURL: "http://localhost:5173" });
 
