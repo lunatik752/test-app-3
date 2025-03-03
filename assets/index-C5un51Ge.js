@@ -1,1 +1,0 @@
-import{j as s,L as e}from"./index--AgmBxs0.js";const t="_description_ki4bq_1",i={description:t},n=()=>s.jsx(e,{title:"Results",showBackLink:!0,children:s.jsx("p",{className:i.description,children:"Order basket redesing"})});export{n as default};
