@@ -13,7 +13,7 @@ const LazyNotFoundPage = lazy(() => import("./pages/NotFoundPage"));
 const App = () => {
     return (
         <DashboardProvider>
-            <BrowserRouter>
+            <BrowserRouter basename={import.meta.env.BASE_URL}>
                 <Routes>
                     <Route path="/" element={<DashboardPage />} />
                     <Route path="/results/:testId" element={<Suspense><LazyResultsPage /></Suspense>} />
